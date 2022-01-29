@@ -14,6 +14,9 @@ if "Y" in word_up:
     other_vowel_present = any(static_vowel_match)
     if other_vowel_present == True:
         print("Other vowels identified.")
+        if word_up[-1] == "Y":
+            y_vowel_state = True
+            continue
     else:
         print("No other vowels identfied")
         y_vowel_state = True
