@@ -1,3 +1,8 @@
+#!/usr/bin/env python -tt
+# Chris Farrell - @seajay - https://github.com/seajaysec/
+"""
+Identifies whether Y is a consonant or vowel in a given word.
+"""
 y_vowel_state = "UNKNOWN"
 static_vowels = ["A", "E", "I", "O", "U"]
 word_up = input("Enter your word: ").upper()
