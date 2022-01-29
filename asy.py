@@ -23,4 +23,4 @@ else:
     print("No Y found.")
     y_vowel_state = False
 
-print("Vowel Y Presence Confirmed: " + str(y_vowel_state))
+print(f"Vowel Y Presence Confirmed: {str(y_vowel_state)}")
