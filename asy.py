@@ -3,7 +3,7 @@
 """
 Identifies whether Y is a consonant or vowel in a given word.
 """
-y_vowel_state = "UNKNOWN"
+y_vowel_state = False
 static_vowels = ["A", "E", "I", "O", "U"]
 word_up = input("Enter your word: ").upper()
 print(word_up)
@@ -19,6 +19,6 @@ if "Y" in word_up:
         y_vowel_state = True
 else:
     print("No Y found.")
-    y_vowel_state = "NOT POSSIBLE"
+    y_vowel_state = False
 
 print("Vowel Y Presence is: " + y_vowel_state)
