@@ -1,4 +1,4 @@
-#!/usr/bin/env python -tt
+#!/usr/bin/env python3 -tt
 # Chris Farrell - @seajay - https://github.com/seajaysec/
 """
 Identifies whether Y is a consonant or vowel in a given word.
