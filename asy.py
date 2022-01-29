@@ -6,7 +6,7 @@ print(word_up)
 if "Y" in word_up:
     print("Y found. Checking vowel status.")
     static_vowel_match = [chars in static_vowels for chars in word_up]
-    if any(static_vowel_match) = "TRUE":
+    if any(static_vowel_match) == "TRUE":
         print("Other vowels identified.")
     else:
         print("No other vowels identfied")
