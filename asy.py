@@ -1,4 +1,4 @@
-y_is_vowel = "UNKNOWN"
+y_vowel_state = "UNKNOWN"
 word_up = input("Enter your word: ").upper()
 print(word_up)
 
@@ -8,7 +8,7 @@ if "Y" in word_up:
         print("Other vowels identified.")
     else:
         print("No other vowels identfied")
-        y_is_vowel = "TRUE"
+        y_vowel_state = "TRUE"
 else:
     print("No Y found.")
 
