@@ -1,4 +1,5 @@
 y_vowel_state = "UNKNOWN"
+static_vowels = ["A", "E", "I", "O", "U"]
 word_up = input("Enter your word: ").upper()
 print(word_up)
 
