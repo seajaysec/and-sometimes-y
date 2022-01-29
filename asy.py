@@ -8,6 +8,6 @@ if "Y" in word_up:
         print("Other vowels identified.")
     else:
         print("No other vowels identfied")
-        y_is_vowel = "FALSE"
+        y_is_vowel = "TRUE"
 else:
     print("No Y found.")
