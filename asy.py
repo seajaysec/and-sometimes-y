@@ -20,4 +20,4 @@ else:
     print("No Y found.")
     y_vowel_state = "NOT POSSIBLE"
 
-print("y_vowel_state")
+print(y_vowel_state)
