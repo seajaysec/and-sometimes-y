@@ -3,6 +3,5 @@ print(word_up)
 
 if "Y" in word_up:
     print("Y found. Checking vowel status.")
-    else:
-        print("No Y found.")
-
+else:
+    print("No Y found.")
