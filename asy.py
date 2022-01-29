@@ -4,7 +4,7 @@ print(word_up)
 
 if "Y" in word_up:
     print("Y found. Checking vowel status.")
-    if {A, E, I, O, U} in word_up:
+    if {"A", "E", "I", "O", "U"} in word_up:
         print("Other vowels identified.")
     else:
         print("No other vowels identfied")
