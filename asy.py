@@ -16,7 +16,7 @@ if "Y" in word_up:
         print("Other vowels identified.")
     else:
         print("No other vowels identfied")
-        y_vowel_state = "TRUE"
+        y_vowel_state = "True"
 else:
     print("No Y found.")
     y_vowel_state = "NOT POSSIBLE"
